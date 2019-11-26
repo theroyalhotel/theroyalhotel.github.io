@@ -1,0 +1,14 @@
+.home-banner {
+    width: calc(100% - 22.25vw);
+    height: 100%;
+}
+
+.home-banner>a {
+    width: 100%;
+    height: 100%;
+}
+
+.home-banner img {
+    width: 100%;
+    height: 100%;
+}

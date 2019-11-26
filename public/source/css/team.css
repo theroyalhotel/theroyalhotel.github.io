@@ -1,0 +1,97 @@
+.single-team-area {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.team-img img {
+    width: 100%;
+    border-radius: 6px 6px 6px 6px;
+}
+.team-info {
+    background-color: #1297E0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: -68px;
+    transition: all 0.3s ease-in-out;
+}
+.single-team-area:hover .team-info {
+    margin-bottom: 0;
+}
+h4 {
+    font-size: 18px;
+}
+.team-info h4 a {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    line-height: 28px;
+    color: #fff;
+}
+.team-info span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.social-network {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+    margin: 20px -20px -20px;
+    background-color: #021832;
+}
+.social-network > li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-network > li > a {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    background: transparent;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 100%;
+    border: 1px solid #ffffff;
+}
+.social-network > li > a:hover {
+    background-color: #1297E0;
+    border-color: #1297E0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

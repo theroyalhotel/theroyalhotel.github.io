@@ -1,0 +1,177 @@
+.breadcrumb-banner-area {
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0) url(../images/bnlr.jpg) no-repeat scroll
+    0 0;
+    color: #ffffff;
+    padding: 100px 0;
+    position: relative;
+    background-position: 50% 27%;
+    background-size: cover;
+}
+.breadcrumb-banner-area:after {
+	background: rgba(45, 62, 80, 0.5) none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+.breadcrumb-text {
+    z-index: 9;
+    position: relative;
+}
+.breadcrumb-text h1 {
+    line-height: 25px;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.breadcrumb-bar .breadcrumb {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    line-height: 12px;
+    margin-bottom: 0;
+    padding: 15px 0 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.breadcrumb-bar li {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 12px;
+    margin: 0 16px;
+    position: relative;
+    text-transform: uppercase;
+}
+.breadcrumb-bar .breadcrumb > li:first-child:before {
+	border-radius: 50%;
+	content: "\f2fb";
+	display: inline-block;
+	font-family: "Material-Design-Iconic-Font";
+	font-size: 18px;
+	position: absolute;
+	right: -22px;
+	top: -2px;
+}
+.breadcrumb-bar a {
+    color: #ffffff;
+}
+a, button, input {
+    outline: medium none;
+    color: #434343;
+}
+
+/*contact*/
+.contact-address {
+    padding-right: 50px;
+}
+/* .contact-information {
+    background-color: #303030;
+    padding: 100px 65px;
+}
+.contact-information > ul > li:first-child {
+    padding-top: 0;
+}
+.contact-information > ul > li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px dashed #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.contact-information h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+.contact-information p a {
+    color: #fff;
+}
+.contact-information p {
+    max-width: 210px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+} */
+.contact-form-title > h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.contact-form-title p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #353535;
+    max-width: 571px;
+}
+.contact-form .single-input > input {
+    
+    background: #f5f5f5;
+    margin-bottom: 30px;
+}
+.contact-form .single-input > input {
+    border: 1px solid #ebebeb;
+    font-size: 16px;
+    line-height: 32px;
+    color: #656565;
+    height: 50px;
+}
+.single-input input, .single-input textarea {
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    background: #f5f5f5;
+    margin-bottom: 30px;
+    color: #222;
+    resize: none;
+}
+.single-input input {
+    padding: 0 10px;
+}
+.contact-form p.form-messege {
+    padding-top: 15px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-form .single-input > textarea {
+    border: 1px solid #ebebeb;
+    font-size: 16px;
+    line-height: 32px;
+    color: #656565;
+    height: 190px;
+}
+
+.single-input textarea {
+    max-width: 100%;
+    min-height: 190px;
+    padding: 15px 17px 5px 19px;
+    background: #f5f5f5;
+    margin-bottom: 30px;
+}
+.sent-btn {
+    display: inline-block;
+    height: 45px;
+    background: #19B5FE;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+    vertical-align: middle;
+    overflow: hidden;
+    border: 1px solid #19B5FE;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.sent-btn:hover {
+    background: #fff;
+    color: #303030;
+}
